@@ -1,0 +1,62 @@
+/* @media screen and (min-width: 1700px) and (max-width: 1880px){
+    .img-game{
+       
+      
+        height: 50vh;
+         width: 80%;
+        transition: all 0.5s;
+    }
+
+    .descricao p{
+        width: 30%;
+        font-size: 1em;
+        font-weight: 500;
+        padding-bottom: 30px;
+        line-height: 1.5em;
+        
+    }
+
+    .fortnite{
+        width: 150px;
+     
+    }
+
+
+    .lista-jogos img{
+        width: 50px;
+        border-radius: 6px;
+    }
+    
+   
+}
+
+
+    /* mudar */
+@media screen and (max-width: 1700px){
+    .img-game{
+        
+        height: 500px;
+         width: 80%;
+        transition: all 0.5s;
+    }
+
+    .descricao p{
+        width: 40%;
+        font-size: 1em;
+       
+
+        line-height: 1.5em;
+        
+    }
+
+    main{
+        padding: 30px 8vw;
+    }
+
+    
+    .lista-jogos img{
+        width: 50px;
+        border-radius: 6px;
+    }
+
+} 
