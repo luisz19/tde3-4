@@ -6,7 +6,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Inter', sans-serif;
-    
+
 }
 
 :root{
@@ -27,8 +27,8 @@ header{
     display: flex;
     background-color: var(--header);
     padding: 20px;
-  
-    
+
+
 }
 
 header ul{
@@ -40,7 +40,7 @@ header ul{
     padding-left: 30px;
     font-weight: 500;
     font-size: 15px;
-    
+
 }
 
 header .loja{
@@ -60,7 +60,7 @@ header .loja{
     justify-content: flex-end;
     align-items: center; /* Adicionado para centralizar verticalmente */
     flex-grow: 1; /* Permite que a div .profile ocupe todo o espaço disponível */
-    
+
 }
 
 .btn-download {
@@ -68,11 +68,11 @@ header .loja{
     padding: 8px 12px;
     border: none;
     border-radius: 8px;
-   
+
 }
 
 main{
-  
+
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -85,8 +85,8 @@ main nav{
     align-items: center;
     justify-content: center;
     gap: 30px;
-   
-  
+
+
 }
 
 
@@ -95,7 +95,7 @@ nav ul{
     list-style: none;
     display: flex;
     gap: 20px;
-   
+
     align-items: center;
 }
 
@@ -165,7 +165,7 @@ section.lancamentos{
     font-weight: 500;
     padding-bottom: 30px;
     line-height: 1.5em;
-    
+
 }
 
 p.gratis{
@@ -190,7 +190,7 @@ p.gratis{
 .lista-jogos{
     display: flex;
     flex-direction: column;
-    
+
 }
 
 
@@ -217,7 +217,7 @@ p.gratis{
     margin-bottom: 5px;
     margin-left: 20px;
     border-radius: 15px;
-    
+
     transition: all 0.5s;
 }
 
@@ -232,7 +232,7 @@ p.gratis{
     border-radius: 6px;
 }
 
-/* fazer animação se pah */
+/* jogos em promoção */
 
 .linha{
     display: flex;
@@ -264,8 +264,9 @@ p.gratis{
 
 .barato{
     display: flex;
-    gap: 45px;
+    gap: 10px;
     list-style: none;
+    justify-content: space-between;
 }
 
 .jogo-barato img{
@@ -285,7 +286,7 @@ p.gratis{
     font-size: 12px;
     font-weight: 600;
     padding: 8px 0px;
-}shooooow
+}
 
 .preco{
     display: flex;
@@ -303,4 +304,62 @@ p.gratis{
 .desconto{
     color: var(--fonte-cinza);
     text-decoration: line-through;
+}
+.oferta-semana{
+    display: flex;
+    gap: 3.5%;
+    margin-top: 50px;
+    justify-content: space-between; ////
+}
+.jogo-1{
+    display: flex;
+    flex-direction: column;
+}
+.jogo-1 img{
+    width: 420px;
+}
+.textos-ofertas{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.textos-ofertas h2{
+    margin-top: 10px;
+}
+
+.textos-abaixos{
+    margin-left: 10px;
+    margin-top: 15px;
+    display: flex;
+    gap: 5%;
+    font-size: 19px;
+}
+.desconto-oferta{
+    background-color: rgb(0, 116, 228);
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 4.5px;
+    font-size: 10px;
+}
+.desconto-oferta2{
+    background-color: rgb(0, 116, 228);
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 4.5px;
+    font-size: 10px;
+
+}
+.navegar{
+    color: white;
+    margin-top: 10px;
+    font-size: 19px;
+}
+.navegar h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.navegar-desconto{
+    margin-top: 10px    ;
 }
