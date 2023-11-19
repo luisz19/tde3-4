@@ -13,6 +13,7 @@
     --background-cor: #121212;
     --header: #18181C;
     --btn: #3995e0;
+    --cor-descontos:  rgb(0, 116, 228);
     --destaques: #2A2A2A;
     --setas: #333333;
     --fonte-cinza: #828486;
@@ -295,7 +296,7 @@ p.gratis{
 }
 
 .porcentagem{
-    background-color: var(--btn);
+    background-color: var(--cor-descontos);
     padding: 5px 8px;
     border-radius: 3px;
     font-size: 0.8rem;
@@ -308,51 +309,56 @@ p.gratis{
 .oferta-semana{
     display: flex;
     gap: 3.5%;
-    margin-top: 50px;
-    justify-content: space-between; ////
+    padding-top: 100px;
+    justify-content: space-between;
 }
 .jogo-1{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 .jogo-1 img{
     width: 420px;
+    border-radius: 14px;
 }
+
 .textos-ofertas{
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .textos-ofertas h2{
-    margin-top: 10px;
+
+    padding-bottom: 20px;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
 
 .textos-abaixos{
-    margin-left: 10px;
-    margin-top: 15px;
+    padding-top: 20px ;
+
     display: flex;
     gap: 5%;
     font-size: 19px;
 }
 .desconto-oferta{
-    background-color: rgb(0, 116, 228);
-    padding: 5px 10px;
-    text-align: center;
-    border-radius: 4.5px;
-    font-size: 10px;
+    background-color: var(--cor-descontos);
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 0.8rem;
 }
 .desconto-oferta2{
-    background-color: rgb(0, 116, 228);
-    padding: 5px 10px;
-    text-align: center;
-    border-radius: 4.5px;
-    font-size: 10px;
+    background-color: var(--cor-descontos);
+    padding: 5px 8px;
+    border-radius: 3px;
+    font-size: 0.8rem;
 
 }
 .navegar{
     color: white;
-    margin-top: 10px;
+    margin-top: 10px;  
     font-size: 19px;
 }
 .navegar h2{
@@ -360,6 +366,205 @@ p.gratis{
     margin-top: 10px;
     font-size: 16px;
 }
-.navegar-desconto{
-    margin-top: 10px    ;
+/*jogos gratis*/
+
+.jogos-gratuitos{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #2A2A2A;
+    margin-top: 30px;
+    border-radius: 5px;
 }
+
+.jogo-gratis-1 img{
+    width: 100%;
+    border-radius: 5px;
+}
+
+
+.todos-jogos{
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+    padding: 0px 18px;
+}
+.jogos-top{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    
+    color: white;
+}
+.presente{
+    margin-left: 20px;
+}   
+.jogo-gratis-1 {
+    color: white;
+}
+.btn-jogos-gratis button{
+    background: transparent;
+    border: 2px solid white;
+    width: 86px;
+    height: 34px;
+    color: white;
+    font-weight: 2px;
+    border-radius: 6px;
+}
+.btn-jogos-gratis button:hover  {
+     background-color: #828486;
+}
+
+
+.textos-jogo-gratis h2{
+    font-size: 16px;
+}
+.textos-jogo-gratis p{
+    font-size: 13px;
+    margin-top: 10px;
+}
+.textos-jogo-gratis{
+    padding: 10px;
+}
+.mais-jogos{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 2%;
+}
+.mais-jogo-1 img{
+    width: 100%;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.mais-jogo-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+
+
+
+.textos-mais-jogos h2{
+    font-weight: 400;
+}
+
+
+
+.textos-mais-jogos{
+    
+    color: white;
+    padding: 5px 20px;
+}
+.textos-mais-jogos p{
+    font-size: 17px;
+    padding-top: 10px;
+    color: var(--fonte-cinza);
+   
+}
+.fortnite-jogue{
+    display: flex;
+    flex-direction: column;
+}
+.top-fortnite{
+    display: flex;
+   justify-content: space-between;
+   padding: 30px 0px 20px 0px;
+    color: white;
+}
+.modos-de-jogo{
+    display: flex;
+    gap: 3%;
+}
+.logo-modo img{
+    width: 100%;
+}
+.textos-apresenta{
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+.btn-fort button{
+    background: transparent;
+    border: 1px solid white;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: 2px;
+    border-radius: 6px;
+}
+.top-fortnite h2{
+    font-size: 20px;
+}
+.caracteristica{
+    font-size: 12px;
+    font-weight: 300;
+    color: gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.textos-apresenta h2{
+    font-size: 16px;
+    margin-bottom: 6px;
+}
+
+.novos-lancamentos{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 40px;
+    gap: 20px
+
+}
+
+.top-lancamentos{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    padding: 20px 0px -10px 0px;
+}
+
+li.lista-jogos-lancamentos{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding-right: 200px;
+    
+}
+
+.lista-sequencia{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+
+
+
+
+.lista-jogos-lancamentos img{
+    width: 100px;
+    border-radius: 6px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+h3.lancamentos{
+    font-weight: 400;
+    font-size: 1.3em;
+}
+
+.vermais{
+    background-color: var(--background-cor);
+    color: white;
+    border: 1px solid;
+    border-radius: 3px;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    font-size: 0.7em;
+}
+
