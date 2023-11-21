@@ -265,13 +265,12 @@ p.gratis{
 
 .barato{
     display: flex;
-    gap: 10px;
+    gap: 45px;
     list-style: none;
-    justify-content: space-between;
 }
 
-.jogo-barato img{
-    width: 200px;
+li.jogo-barato figure img{
+    width:  100%;
     border-radius: 4px;
     margin-top: 15px
 }
@@ -291,12 +290,17 @@ p.gratis{
 
 .preco{
     display: flex;
-    justify-content: space-between;
+    gap: 3%;
     padding-top: 8px;
 }
 
+p.joguep{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
 .porcentagem{
-    background-color: var(--cor-descontos);
+    background-color: var(--btn);
     padding: 5px 8px;
     border-radius: 3px;
     font-size: 0.8rem;
@@ -309,65 +313,68 @@ p.gratis{
 .oferta-semana{
     display: flex;
     gap: 3.5%;
-    padding-top: 100px;
-    justify-content: space-between;
+    margin-top: 50px;
 }
+
 .jogo-1{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 .jogo-1 img{
-    width: 420px;
-    border-radius: 14px;
-}
+    width: 100%;
 
+    border-radius: 10px;
+}
 .textos-ofertas{
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 20px;
 }
 
 .textos-ofertas h2{
-
-    padding-bottom: 20px;
-    font-weight: 400;
-    font-size: 1.4rem;
+    margin-top: 10px;
 }
 
 .textos-abaixos{
-    padding-top: 20px ;
-
+    margin-left: 10px;
+    margin-top: 15px;
     display: flex;
     gap: 5%;
     font-size: 19px;
 }
 .desconto-oferta{
-    background-color: var(--cor-descontos);
-    padding: 5px 8px;
-    border-radius: 3px;
-    font-size: 0.8rem;
+    background-color: rgb(0, 116, 228);
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 4.5px;
+    font-size: 10px;
 }
 .desconto-oferta2{
-    background-color: var(--cor-descontos);
-    padding: 5px 8px;
-    border-radius: 3px;
-    font-size: 0.8rem;
+    background-color: rgb(0, 116, 228);
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 4.5px;
+    font-size: 10px;
 
 }
 .navegar{
     color: white;
-    margin-top: 10px;  
+    margin-top: 10px;
     font-size: 19px;
+
 }
 .navegar h2{
     color: white;
     margin-top: 10px;
     font-size: 16px;
 }
-/*jogos gratis*/
+.navegar-desconto{
+    margin-top: 10px    ;
+}
 
+.preco-desconto{
+    text-decoration: line-through;
+}
 .jogos-gratuitos{
     padding: 20px;
     display: flex;
@@ -430,49 +437,62 @@ p.gratis{
 }
 .mais-jogos{
     display: flex;
-    justify-content: space-between;
     margin-top: 30px;
     gap: 2%;
 }
 .mais-jogo-1 img{
     width: 100%;
-    padding-bottom: 20px;
-    border-radius: 10px;
 }
-
+.mais-jogo-2 img{
+    width: 100%;
+}
+.mais-jogo-3 img{
+    width: 100%;
+}
 .mais-jogo-1 {
     display: flex;
     flex-direction: column;
     gap: 2%;
 }
 
-
-
-.textos-mais-jogos h2{
-    font-weight: 400;
+.mais-jogo-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
 }
-
-
-
-.textos-mais-jogos{
-    
+.mais-jogo-3 {
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+}
+.textos-mais-jogos h2{
+    font-size: 20px;
     color: white;
-    padding: 5px 20px;
+    margin-bottom: 20px
 }
 .textos-mais-jogos p{
     font-size: 17px;
-    padding-top: 10px;
-    color: var(--fonte-cinza);
-   
+    color: white;
+    margin-bottom: 20px
 }
+.txt{
+    font-size: 15px;
+    color: gray;
+}
+.jogue-gratis{
+    margin-top:30px;
+    color: white;
+}
+
 .fortnite-jogue{
     display: flex;
     flex-direction: column;
 }
 .top-fortnite{
     display: flex;
-   justify-content: space-between;
-   padding: 30px 0px 20px 0px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    justify-content: space-between;
     color: white;
 }
 .modos-de-jogo{
@@ -511,6 +531,34 @@ p.gratis{
     margin-bottom: 6px;
 }
 
+.mais-jogos-4{
+    display: flex;
+    gap:3%;
+    padding-bottom: 50px;
+}
+.logo-jogo-01 figure img{
+    width: 100%;
+    border-radius: 16px;
+}
+
+.textos-jogo-01{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: white;
+}
+.textos-jogo-01 h2{
+    margin-bottom: 10px;
+}
+.textos-jogo-01 p{
+    margin-bottom: 10px;
+}
+
+.mais-jogos-4 h5{
+    font-size: 19px;
+}
 .novos-lancamentos{
     display: flex;
     justify-content: space-between;
@@ -529,10 +577,11 @@ p.gratis{
 
 li.lista-jogos-lancamentos{
     display: flex;
+    /* justify-content: ; */
     align-items: center;
     color: white;
     padding-right: 200px;
-    
+
 }
 
 .lista-sequencia{
@@ -541,10 +590,6 @@ li.lista-jogos-lancamentos{
     flex-direction: column;
 
 }
-
-
-
-
 
 .lista-jogos-lancamentos img{
     width: 100px;
@@ -567,4 +612,3 @@ h3.lancamentos{
     padding: 5px 10px;
     font-size: 0.7em;
 }
-
