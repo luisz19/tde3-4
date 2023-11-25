@@ -15,9 +15,9 @@
         </figure>
         <ul class="menu">
             <li class="loja">STORE</li>
-            <li>Distribuição</li>
-            <li>Suporte</li>
-            <li>Unreal Engine</li>
+            <li class="list-header">Distribuição</li>
+            <li class="list-header">Suporte</li>
+            <li class="list-header">Unreal Engine</li>
         </ul>
         <div class="profile">
             <!-- <figure>
@@ -28,6 +28,12 @@
                 <li></li>
             </ul>
             <button class="btn-download">Download</button>
+            <!-- <figure class="menu-hamburger">
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 30 30"
+style="fill:#FFFFFF;">
+<path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
+</svg>
+            </figure> -->
         </div>
     </header>
     <main>
@@ -40,13 +46,13 @@
             </div>
             <ul class="novidades">
                 <li class="destacado">Descobrir</li>
-                <li>Navegar</li>
-                <li>Novidades</li>
+                <li class="nop-destaque">Navegar</li>
+                <li class="nop-destaque">Novidades</li>
             </ul>
 
             <ul class="carrinho">
-                <li>Lista de desejos</li>
-                <li>Carrinho</li>
+                <li class="nop-destaque">Lista de desejos</li>
+                <li class="nop-destaque">Carrinho</li>
             </ul>
         </nav>
         
@@ -148,45 +154,39 @@
                         R$ 13,43
                     </div>
                 </li>
-                <li class="jogo-barato">
-                    <figure>
-                        <img src="https://cdn1.epicgames.com/spt-assets/e48463d2c1fc4e17a3860fbbc8e54edc/gas-station-simulator-6na58.jpg" alt="">
-                    </figure>
-                    <span class="jogobase">JOGO BASE</span>
-                    Skotos
-                    <div class="preco">
-                        <p class="porcentagem">-17%</p>
-                        <p class="desconto">R$16,19</p>
-                        R$ 13,43
-                    </div>
-                </li>
-                <li class="jogo-barato">
-                    <figure>
-                        <img src="https://cdn1.epicgames.com/spt-assets/d9cf30b30233475dbcf56055db33c826/ginsha-11fm9.jpg" alt="">
-                    </figure>
-                    <span class="jogobase">JOGO BASE</span>
-                    Skotos
-                    <div class="preco">
-                        <p class="porcentagem">-17%</p>
-                        <p class="desconto">R$16,19</p>
-                        R$ 13,43
-                    </div>
-                </li>
-                <li class="jogo-barato">
-                    <figure>
-                        <img src="https://cdn1.epicgames.com/spt-assets/49f51d9e46f64c47a33a3cb69477efa2/game-dev-masters-1v5zh.png" alt="">
-                    </figure>
-                    <span class="jogobase">JOGO BASE</span>
-                    Skotos
-                    <div class="preco">
-                        <p class="porcentagem">-17%</p>
-                        <p class="desconto">R$16,19</p>
-                        R$ 13,43
-                    </div>
-                </li>
+                <div class="jogo-remove">
+                    <li class="jogo-barato">
+                        <figure>
+                            <img src="https://cdn1.epicgames.com/spt-assets/e48463d2c1fc4e17a3860fbbc8e54edc/gas-station-simulator-6na58.jpg" alt="">
+                        </figure>
+                        <span class="jogobase">JOGO BASE</span>
+                        Skotos
+                        <div class="preco">
+                            <p class="porcentagem">-17%</p>
+                            <p class="desconto">R$16,19</p>
+                            R$ 13,43
+                        </div>
+                    </li>
+                </div>
+                
+                <div class="jogo-remove">
+                    <li class="jogo-barato">
+                        <figure>
+                            <img src="https://cdn1.epicgames.com/spt-assets/49f51d9e46f64c47a33a3cb69477efa2/game-dev-masters-1v5zh.png" alt="">
+                        </figure>
+                        <span class="jogobase">JOGO BASE</span>
+                        Skotos
+                        <div class="preco">
+                            <p class="porcentagem">-17%</p>
+                            <p class="desconto">R$16,19</p>
+                            R$ 13,43
+                        </div>
+                    </li>
+                </div>
             </ul>
             
         </section>
+        
       <section class="oferta-semana">
               <div class="jogo-1">
 
@@ -196,11 +196,11 @@
 
                   <div class="textos-ofertas">
                       <h2>Oirbo</h2>
-                      <span class="textos-abaixos">
-                      <p class="desconto-oferta">-20%</p>
-                      <p class="desconto">R$ 39,90</p>
-                      <p class="preco-pagar">R$ 31,99</p>
-                      </span>
+                      <div class="preco">
+                        <p class="porcentagem">-75%</p>
+                        <p class="desconto">R$99,96</p>
+                        R$ 24,99
+                    </div>
                   </div>  
               </div>
 
@@ -211,12 +211,11 @@
                   </div>
                   <div class="textos-ofertas">
                           <h2>The fabled Woods</h2>
-                          <span class="textos-abaixos">
-                          <p class="desconto-oferta2">80%</p>
-                          <p class="desconto">R$ 20,69</p>
-                          <p class="preco-pagar2">R$ 4,13</p> 
-                          </span>
-
+                          <div class="preco">
+                            <p class="porcentagem">-30%</p>
+                            <p class="desconto">R$99,99</p>
+                            R$ 87,49
+                        </div>
                   </div>
 
               </div>
@@ -429,59 +428,61 @@
                 </li>
             </ul>
         </div>
-        <div class="lancamentos-lista">
-            <div class="top-lancamentos">
-                <h3 class="lancamentos">Novos lançamentos</h3>
-                <button class="vermais">Ver mais</button>
-            </div>
-            <div class="lista-sequencia">
-                <ul>
-                    <li class="lista-jogos-lancamentos">
-                        <figure>
-                            <img src="https://cdn1.epicgames.com/spt-assets/8fe0e4c408cf4c79a5fad7364a28b67a/the-meme-hunter-1ljir.png" alt="">
-                        </figure>
-                        <div class="preco-lancamento">
-                            <p>Skirmsh</p>
-                            <p>R$ 4,49</p>
-                        </div>
-                    </li>
-                    <li class="lista-jogos-lancamentos">
-                        <figure>
-                            <img src="https://cdn1.epicgames.com/spt-assets/259065215b8e4130b6988c9f96b13741/worldless-167em.jpg" alt="">
-                        </figure>
-                        <div class="preco-lancamento">
-                            <p>Skirmsh</p>
-                            <p>R$ 4,49</p>
-                        </div>
-                    </li>
-                    <li class="lista-jogos-lancamentos">
-                        <figure>
-                            <img src="https://cdn1.epicgames.com/offer/ba1596b29e8b4b1199058fad440366a5/EGS_StarshipTroopersTerranCommandRaisingHell_TheArtistocrats_DLC_S2_1200x1600-46d65f8bcfa843729c9776dc24a6ee5e" alt="">
-                        </figure>
-                        <div class="preco-lancamento">
-                            <p>Skirmsh</p>
-                            <p>R$ 4,49</p>
-                        </div>
-                    </li>
-                    <li class="lista-jogos-lancamentos">
-                        <figure>
-                            <img src="https://cdn1.epicgames.com/spt-assets/a0f0e2f2026f41c98c7b0c3c34799a29/jump-challenge-vq2m8.png" alt="">
-                        </figure>
-                        <div class="preco-lancamento">
-                            <p>Skirmsh</p>
-                            <p>R$ 4,49</p>
-                        </div>
-                    </li>
-                    <li class="lista-jogos-lancamentos">
-                        <figure>
-                            <img src="https://cdn1.epicgames.com/spt-assets/dd0b8170ddf54e4b8191e31ad3f0fac9/illuvium-16vx9.png" alt="">
-                        </figure>
-                        <div class="preco-lancamento">
-                            <p>Skirmsh</p>
-                            <p>R$ 4,49</p>
-                        </div>
-                    </li>
-                </ul>
+        <div class="jogo-remove">
+            <div class="lancamentos-lista">
+                <div class="top-lancamentos">
+                    <h3 class="lancamentos">Novos lançamentos</h3>
+                    <button class="vermais">Ver mais</button>
+                </div>
+                <div class="lista-sequencia">
+                    <ul>
+                        <li class="lista-jogos-lancamentos">
+                            <figure>
+                                <img src="https://cdn1.epicgames.com/spt-assets/8fe0e4c408cf4c79a5fad7364a28b67a/the-meme-hunter-1ljir.png" alt="">
+                            </figure>
+                            <div class="preco-lancamento">
+                                <p>Skirmsh</p>
+                                <p>R$ 4,49</p>
+                            </div>
+                        </li>
+                        <li class="lista-jogos-lancamentos">
+                            <figure>
+                                <img src="https://cdn1.epicgames.com/spt-assets/259065215b8e4130b6988c9f96b13741/worldless-167em.jpg" alt="">
+                            </figure>
+                            <div class="preco-lancamento">
+                                <p>Skirmsh</p>
+                                <p>R$ 4,49</p>
+                            </div>
+                        </li>
+                        <li class="lista-jogos-lancamentos">
+                            <figure>
+                                <img src="https://cdn1.epicgames.com/offer/ba1596b29e8b4b1199058fad440366a5/EGS_StarshipTroopersTerranCommandRaisingHell_TheArtistocrats_DLC_S2_1200x1600-46d65f8bcfa843729c9776dc24a6ee5e" alt="">
+                            </figure>
+                            <div class="preco-lancamento">
+                                <p>Skirmsh</p>
+                                <p>R$ 4,49</p>
+                            </div>
+                        </li>
+                        <li class="lista-jogos-lancamentos">
+                            <figure>
+                                <img src="https://cdn1.epicgames.com/spt-assets/a0f0e2f2026f41c98c7b0c3c34799a29/jump-challenge-vq2m8.png" alt="">
+                            </figure>
+                            <div class="preco-lancamento">
+                                <p>Skirmsh</p>
+                                <p>R$ 4,49</p>
+                            </div>
+                        </li>
+                        <li class="lista-jogos-lancamentos">
+                            <figure>
+                                <img src="https://cdn1.epicgames.com/spt-assets/dd0b8170ddf54e4b8191e31ad3f0fac9/illuvium-16vx9.png" alt="">
+                            </figure>
+                            <div class="preco-lancamento">
+                                <p>Skirmsh</p>
+                                <p>R$ 4,49</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
       </section>
@@ -585,50 +586,120 @@
         <div class="jogo-1">
 
             <div class="img-oferta">
-                <figure><img src="https://cdn2.unrealengine.com/pt-br-egs-dotw-oirbo-breaker-1920x1080-f6a917b35ef1.jpg?h=480&quality=medium&resize=1&w=854" alt=""></figure> 
+                <figure><img src="https://cdn2.unrealengine.com/egs-sales-specials-breaker-1280x721-8d81919a48e5.jpg?h=480&quality=medium&resize=1&w=854" alt=""></figure> 
             </div>
 
             <div class="textos-ofertas">
-                <h2>Oirbo</h2>
-                <span class="textos-abaixos">
-                <p class="desconto-oferta">-20%</p>
-                <p class="desconto">R$ 39,90</p>
-                <p class="preco-pagar">R$ 31,99</p>
-                </span>
+                <h2>Ofertas e promoção</h2>
+                
+                <p class="texto-preco">Economize muito em títulos de sucesso e verdadeiros tesouros Tem sempre algo em promoção na Epic Games Store!</p>
+                <p class="joguep">Navegar</p>
             </div>  
         </div>
 
 
         <div class="jogo-1">
             <div class="img-oferta">
-                <figure><img src="https://cdn2.unrealengine.com/pt-br-egs-dotw-the-fabled-woods-breaker-1920x1080-ba135e246609.jpg?h=480&quality=medium&resize=1&w=854" alt=""></figure>
+                <figure><img src="https://cdn2.unrealengine.com/egs-free-games-breaker-may-2023-1920x1080-3d7b336fd40c.jpg?h=480&quality=medium&resize=1&w=854" alt=""></figure>
             </div>
             <div class="textos-ofertas">
-                    <h2>The fabled Woods</h2>
-                    <span class="textos-abaixos">
-                    <p class="desconto-oferta2">80%</p>
-                    <p class="desconto">R$ 20,69</p>
-                    <p class="preco-pagar2">R$ 4,13</p> 
-                    </span>
+                    <h2>Jogos grátis</h2>
+                    <p class="texto-preco">Explore jogos gratuitos e grátis para jogar de nossa coleção. Volte toda quinta-feira para um novo jogo grátis!</p>
+                    <p class="joguep">Jogue grátis</p>
 
             </div>
 
         </div>
         <div class="jogo-1">
-            <figure><img src="https://cdn2.unrealengine.com/pt-br-sales-specials-dotw-breaker-asset-1920x1080-548e0e6ea62a.jpg?h=480&quality=medium&resize=1&w=854" alt=""></figure>
+            <figure><img src="https://cdn2.unrealengine.com/egs-non-game-apppromo-blog-1920x1080-59bd51d9d448.jpg?h=480&quality=medium&resize=1&w=854" alt=""></figure>
             <div class="textos-ofertas">
-                <h2>Confira todas as fertas para essa Semana.</h2>
-                <p class="textos-abaixos">Navegar</p>
+                <h2>Aplicativos</h2>
+                <p class="texto-preco">Explore jogos gratuitos e grátis para jogar de nossa coleção. Volte toda quinta-feira para um novo jogo grátis!</p>
+                <p class="joguep">Navegar</p>
             </div>
-
-            <!-- terminar esse -->
 
         </div>
     </section>
-    </main>
-
+</main>
     <footer>
+        <ul class="icons-media">
+            <li class="media"><figure>
+                <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256"
+style="fill:#EBEBEB;">
+<g fill="#ebebeb" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M11.666,2.005c-5.046,0.165 -9.292,4.246 -9.641,9.283c-0.369,5.329 3.442,9.832 8.481,10.589v-7.227h-1.614c-0.726,0 -1.314,-0.588 -1.314,-1.314v0c0,-0.726 0.588,-1.314 1.314,-1.314h1.613v-1.749c0,-2.896 1.411,-4.167 3.818,-4.167c0.357,0 0.662,0.008 0.921,0.021c0.636,0.031 1.129,0.561 1.129,1.198v0c0,0.663 -0.537,1.2 -1.2,1.2h-0.442c-1.022,0 -1.379,0.969 -1.379,2.061v1.437h1.87c0.591,0 1.043,0.527 0.953,1.111l-0.108,0.701c-0.073,0.47 -0.477,0.817 -0.953,0.817h-1.762v7.247c4.883,-0.663 8.648,-4.837 8.648,-9.899c0,-5.634 -4.659,-10.179 -10.334,-9.995z"></path></g></g>
+</svg>
+            </figure>
+            </li>
+            <li class="media">
+                <figure>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50"
+style="fill:#EBEBEB;">
+<path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>e
+</svg>
+                </figure>
+            </li>
+            <li class="media">
+                <figure>
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 72 72"
+style="fill:#EBEBEB;">
+<path d="M61.115,18.856C63.666,21.503,64,25.709,64,36s-0.334,14.497-2.885,17.144C58.563,55.791,55.906,56,36,56	s-22.563-0.209-25.115-2.856C8.334,50.497,8,46.291,8,36s0.334-14.497,2.885-17.144S16.094,16,36,16S58.563,16.209,61.115,18.856z M31.464,44.476l13.603-8.044l-13.603-7.918V44.476z"></path>
+</svg>
+                </figure>
+            </li>
+        </ul>  
+        <p class="title-footer">Recursos</p>
+        <div class="footer-links">
+            <ul class="column1">
+                
+                <li><a href="">Apoie-um-Criador</a></li>
+                <li><a href="">Distribuir na Epic Games</a></li>
+                <li><a href="">Carreiras</a></li>
+                <li><a href="">Empresa</a></li>
+            </ul>
+
+            <ul class="column2">
+                
+                <li><a href="">Política de Fanart</a></li>
+                <li><a href="">UX Research</a></li>
+                <li><a href="">EULA da Loja</a></li>
+            </ul>
+
+            <ul class="column3">
+                <li><a href="">Serviços On-line</a></li>
+                <li><a href="">Regras da Comunidade</a></li>
+                <li><a href="">Epic Newsroom</a></li>
+            <a href=""></ul></a>
+        </div>
         
+        <p class="title-footer">Feito pela Epic Games</p>
+        <div class="footer-links">
+            
+            <ul class="column1">
+              
+                <li><a href="">Battle Breakers</a></li>
+                <li><a href="">Fortnite</a></li>
+                <li><a href="">Infinity Blade</a></li>
+            </ul>
+
+            <ul class="column2">
+                <li><a href="">Robo Recall</a></li>
+                <li><a href="">Shadow Complex</a></li>
+                <li><a href="">Unreal Tournament</a></li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <p class="copyrights">
+            © 2023, Epic Games, Inc. Todos os direitos reservados. Epic, Epic Games, o logotipo da Epic Games, Fortnite, o logotipo do Fortnite, Unreal, Unreal Engine, o logotipo do Unreal Engine, Unreal Tournament e o logotipo do Unreal Tournament são marcas comerciais ou registradas da Epic Games, Inc. nos Estados Unidos da América e em outros lugares. Outras marcas e nomes de produtos são marcas registradas de seus respectivos donos.   
+        </p>
+
+        <ul class="politicas">
+            <li><a href="">Termos de Serviço</a></li>
+            <li><a href="">Política de Privacidade</a></li>
+            <li><a href="">Política de Reembolso da Loja</a></li>
+        </ul>
     </footer>
+
 </body>
 </html>

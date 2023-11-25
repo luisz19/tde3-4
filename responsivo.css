@@ -1,7 +1,7 @@
 /* @media screen and (min-width: 1700px) and (max-width: 1880px){
     .img-game{
-       
-      
+
+
         height: 50vh;
          width: 80%;
         transition: all 0.5s;
@@ -13,12 +13,12 @@
         font-weight: 500;
         padding-bottom: 30px;
         line-height: 1.5em;
-        
+
     }
 
     .fortnite{
         width: 150px;
-     
+
     }
 
 
@@ -26,37 +26,289 @@
         width: 50px;
         border-radius: 6px;
     }
-    
-   
+
+
 }
 
 
     /* mudar */
-@media screen and (max-width: 1700px){
-    .img-game{
+    @media screen and (max-width: 1700px) {
+        .img-game {
+      
+          height: 500px;
+          width: 80%;
+          transition: all 0.5s;
+        }
+      
+        .descricao p {
+          width: 40%;
+          font-size: 1em;
+      
+      
+          line-height: 1.5em;
+      
+        }
+      
+        main {
+          padding: 30px 8vw;
+        }
+      
+      
+        .lista-jogos img {
+          width: 50px;
+          border-radius: 6px;
+        }
+      
+      }
+      
+      /* @media screen and (min-width: 1700px) and (max-width: 1880px){
+          .img-game{
+      
+      
+              height: 50vh;
+               width: 80%;
+              transition: all 0.5s;
+          }
+      
+          .descricao p{
+              width: 30%;
+              font-size: 1em;
+              font-weight: 500;
+              padding-bottom: 30px;
+              line-height: 1.5em;
+      
+          }
+      
+          .fortnite{
+              width: 150px;
+      
+          }
+      
+      
+          .lista-jogos img{
+              width: 50px;
+              border-radius: 6px;
+          }
+      
+      
+      }
+      
+      
+          /* mudar */
+      @media screen and (max-width: 1700px) {
+        .img-game {
+      
+          height: 500px;
+          width: 80%;
+          transition: all 0.5s;
+        }
+      
+        .descricao p {
+          width: 40%;
+          font-size: 1em;
+      
+      
+          line-height: 1.5em;
+      
+        }
+      
+        main {
+          padding: 30px 8vw;
+        }
+      
+      
+        .lista-jogos img {
+          width: 50px;
+          border-radius: 6px;
+        }
+      
+      }
+      
+      
+      /* Dispositivos movéis! */
+      @media only screen and (max-width: 767px) {
+        .oferta-semana{
+            display: flex;
+            flex-direction: column;
+            column-gap: 2%;
+        }
+        .jogo-1{
+            margin-top: 30px;
+        }
+        .jogos-top{
+            display: flex;
+            justify-content: space-between;
+            gap: 2%;
+        }
+      
+        .jogo-gratis-1 img{
+            width: 100%;
+        }
+        .todos-jogos{
+            display: flex;
+            flex-direction: column;
+        }
+        .mais-jogos{
+            display: flex;
+            flex-direction: column;
+        }
+        .modos-de-jogo{
+            display: flex;
+            flex-direction: column;
+      
+        }
+        .modo-1{
+            margin-bottom: 20px;
+        }
+        .modo-2{
+            margin-bottom: 20px;
+        }
+        .mais-jogos-4{
+            display: flex;
+            flex-direction: column;
+        }
+        .novos-lancamentos{
+            display: flex;
+            flex-direction: column;
+        }
+      
+      }
+      
+      /* tablet luis */
+      @media screen and (min-width: 767px) and (max-width: 1024px){
+        *{
+            transition: all;
+        }
+      
+          header ul{
+              display: flex;
+              gap: 30px;
+              list-style: none;
+              color: var(--fonte-cinza);
+              align-items: center;
+              padding-left: 30px;
+              font-weight: 500;
+              font-size: 0.9rem;
+      
+          }
+      
+          .list-header{
+              display: none;
+          }
+      
+          .btn-download {
+              display: none;
+      
+          }
+      
+          main{
+              padding: 30px 16vh;
+          }
+      
+          nav .nop-destaque{
+              display: none;
+          }
+      
+      
+          nav ul{
+              font-size: 0.9rem;
+      
+          }
+      
+          .lista-jogos ul li.selecionado{
+              padding: 10px;
+              margin-bottom: 5px ;
+              border-radius: 8px;
+              font-size: 0.7rem;
+              width: 100%
+      
+          }
+      
+      
+          .lista-jogos ul li.others-games{
+              padding: 10px;
+              margin-bottom: 5px;
+              border-radius: 8px;
+              font-size: 0.7rem;
+      
+          }
+      
+      
+          .lista-jogos img{
+              width: 30px;
+              border-radius: 6px;
+          }
+      
+      
+          .img-game{
+              height: 40vh;
+               width: 80%;
+              padding: 0px 0px 60px 40px;
+          }
+      
+          .fortnite{
+              width: 100px;
+              padding: 10px 0px;
+          }
+      
+          .descricao p{
+              width: 25vw;
+              font-size: 0.9rem;
+              padding-bottom: 10px;
+      
+      
+          }
+      
+          p.gratis{
+              padding-bottom: 10px;
+          }
+      
+          .comprar{
+              display: flex;
+              align-items: center;
+              gap: 30px;
+              font-weight: 500;
+              font-size: 0.7rem;
+          }
+      
+          .jogo-barato{
+            font-size: 0.9rem;
+          }
+
+          .texto-preco{
+            font-size: 0.8rem;
+          }
+      
+          .jogo-remove{
+            display: none
+          }
+      
+        .textos-ofertas{
+      
+            padding: 15px 20px 30px 15px;
+        }
+      
+        .textos-ofertas h2{
+            padding-bottom: 10px;
+            font-weight: 400;
+            font-size: 1rem
+        }
+      
+        .desconto-oferta{
+
+          padding: 5px 10px;
+          border-radius: 4.5px;
+          font-size: 10px;
+        }
         
-        height: 500px;
-         width: 80%;
-        transition: all 0.5s;
-    }
+      
+        .preco-lancamento{
+          font-size: 0.8rem
+        }
 
-    .descricao p{
-        width: 40%;
-        font-size: 1em;
-       
-
-        line-height: 1.5em;
-        
-    }
-
-    main{
-        padding: 30px 8vw;
-    }
-
-    
-    .lista-jogos img{
-        width: 50px;
-        border-radius: 6px;
-    }
-
-} 
+        .textos-jogo-01{
+            padding: 0px 10px
+        }
+      
+      }
+      
